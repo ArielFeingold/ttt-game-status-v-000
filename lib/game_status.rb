@@ -42,7 +42,6 @@ end
 
 def winner(board)
   if won?(board) != false
-    token = board[won?(board)[0]]
-    return token
+    board[won?(board)[0]]
   end
 end
